@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .bg {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.765), rgba(9, 8, 46, 0.829)) ,url('/images/hero.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover ;
+    }
+    .footer__link{
+        @apply text-white text-[15px] opacity-70 mb-[1rem] w-fit cursor-pointer hover:text-yellow-400
+    }
+}
