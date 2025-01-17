@@ -10,7 +10,8 @@ const Contact = () => {
             Get Our emails for info on new items,sales and more
           </h1>
           <p className="text-[17px] text-white mt--[0.8rem] mb-[1.5rem] opacity-70">
-            We'll email you a voucher worth $10 off your first order over $50
+          We&apos;ll email you a voucher worth $10 off your first order over $50
+
           </p>
           <div className="w-[100%] relative h-[2.7rem] mb-[0.3rem] bg-white">
             <input

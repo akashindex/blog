@@ -8,12 +8,14 @@ const Footer = () => {
             <div className="w-[90%] mx-auto border-b border-gray-700 pb-8 flex  justify-between gap-8">
                 {/* Logo and Description */}
                 <div className="flex flex-col w-full sm:w-[48%] lg:w-[23%]">
-                    <img
+                    <Image
                         src="/images/logo copy.png"
                         className="w-20 h-20 mb-4"
                         alt="Company Logo"
+                        width={80}  // Specify width
+                        height={80} // Specify height
                     />
-                    
+
                 </div>
 
                 {/* Content Links */}
