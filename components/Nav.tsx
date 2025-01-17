@@ -17,7 +17,7 @@ const Nav: React.FC = () => {
         {/* Logo Section */}
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <Link href="/Homepage">
+            <Link href="/">
               <Image src="/images/logo copy.png" alt="Logo" width={80} height={80} />
             </Link>
 
@@ -55,13 +55,13 @@ const Nav: React.FC = () => {
         >
           <ul className="h-screen md:h-auto items-center justify-end md:flex space-y-0 md:space-y-0 md:space-x-6">
             <li className="text-white text-lg hover:text-purple-500 transition-all duration-300">
-              <Link href="/about">About</Link>
+              <Link href="/About">About</Link>
             </li>
             <li className="text-white text-lg hover:text-purple-500 transition-all duration-300">
               <Link href="/services">Services</Link>
             </li>
             <li className="text-white text-lg hover:text-purple-500 transition-all duration-300">
-              <Link href="/contact">Contact</Link>
+            <Link href="/ContactPage">Contact</Link>
             </li>
           </ul>
         </div>

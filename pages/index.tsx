@@ -1,7 +1,5 @@
 
 import Hero from "@/components/Hero";
-import Nav from "@/components/Nav";
-import Footer from "@/components/Footer";
 import Featuredroducts from "@/components/Featuredroducts";
 
 import AOS from "aos";
@@ -26,10 +24,8 @@ const HomePage = () => {
 
   return (
     <div className="overflow-hidden">
-      <Nav />
       <Hero />
       <Featuredroducts />
-      <Footer />
     </div>
   );
 };
