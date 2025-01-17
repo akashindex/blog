@@ -5,36 +5,68 @@ import {
   UserIcon,
 } from "@heroicons/react/16/solid";
 import Image from "next/image";
-import React from "react";
+import Link from "next/link";
+import React, { useState } from "react";
 
-const Nav = () => {
+const Nav: React.FC = () => {
+  const [navbar, setNavbar] = useState<boolean>(false);
+
   return (
-    <div className="h-[13vh] bg-gray-800">
-      <div className="w-[95%] md:w-[80%] mx-auto h-[100%] flex items-center justify-between">
+    <nav className="w-full mg fixed top-0 left-0 right-0 z-10">
+      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+        {/* Logo Section */}
         <div>
-          <Image src="/images/logo.png" alt="logo" width={140} height={140} />
-        </div>
-        <div className="h-[50%] hidden flex-[0.7] overflow-hidden bg-gray-200 rounded-md md:flex items-center">
-          <input
-            type="text"
-            placeholder="Search game (eg.Call of Duty)"
-            className="block pl-[0.5rem] w-[90%] outline-none mx-auto h-[100%] bg-gray-200"
-          />
-          <MagnifyingGlassIcon className="w-[1.8rem] h-[1.8rem] mr-[1.4rem] cursor-pointer" />
-        </div>
+          <div className="flex items-center justify-between py-3 md:py-5 md:block">
+            <Link href="/Homepage">
+              <Image src="/images/logo copy.png" alt="Logo" width={80} height={80} />
+            </Link>
 
-        <div className="flex items-center justify-center space-x-8">
-          <div className="relative">
-            <ShoppingBagIcon className="w-[2rem] h-[2rem] text-white cursor-pointer" />
-            <div className="w-[20px] text-[12px] absolute top-[-7px] h-[20px] flex items-center text-white justify-center font-semibold rounded-full bg-red-400">
-              4
+            {/* Hamburger Menu for Mobile */}
+            <div className="md:hidden">
+              <button
+                className="p-2 text-gray-300 rounded-md outline-none focus:border-gray-400 focus:border"
+                onClick={() => setNavbar(!navbar)}
+              >
+                {navbar ? (
+                  <Image
+                    src="/close.svg"
+                    width={30}
+                    height={30}
+                    alt="Close Menu"
+                  />
+                ) : (
+                  <Image
+                    src="/open.svg"
+                    width={30}
+                    height={30}
+                    alt="Open Menu"
+                  />
+                )}
+              </button>
             </div>
           </div>
-          <HeartIcon className="w-[2rem] h-[2rem] text-white cursor-pointer" />
-          <UserIcon className="w-[2rem] h-[2rem] text-white cursor-pointer" />
+        </div>
+
+        {/* Navigation Links */}
+        <div
+          className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+            navbar ? "p-12 md:p-0 block" : "hidden"
+          }`}
+        >
+          <ul className="h-screen md:h-auto items-center justify-end md:flex space-y-0 md:space-y-0 md:space-x-6">
+            <li className="text-white text-lg hover:text-purple-500 transition-all duration-300">
+              <Link href="/about">About</Link>
+            </li>
+            <li className="text-white text-lg hover:text-purple-500 transition-all duration-300">
+              <Link href="/services">Services</Link>
+            </li>
+            <li className="text-white text-lg hover:text-purple-500 transition-all duration-300">
+              <Link href="/contact">Contact</Link>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 

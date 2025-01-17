@@ -2,21 +2,25 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="relative w-[100vw] h-[60vh] md:h-[87vh] bg">
-      <div className="w-[90%] md:w-[80%] mx-auto h-[100%] flex flex-col items-start justify-center">
-        <div data-aos="fade-right" className="text-white font-bold text-[25px] md:text-[30px] lg:text-[40px] uppercase">
-          Best place to Buy game
+    <div className="flex items-center mt-[105px] md:mt-[120px]  bg md:p-[20px] mx-auto">
+      <div className="w-[90%] md:w-[80%] flex flex-col p-[30px] justify-center">
+        <div className="text-black font-bold text-[35px] md:text-[30px] lg:text-[40px] uppercase mb-10 mt-10">
+          Teen Patti Gold Pakistan APK Download <br /> (Latest Version) v1.629 for Android
         </div>
-        <p data-aos="fade-left" data-aos-delay="200" className="text-white md:text-[14px] text-[18px] w-[80%] lg:w-[55%] mt-[1rem] md:mt-[0.2rem] mb-[1rem] opacity-75">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod officia
-          commodi, perferendis libero doloremque est in repellendus? Soluta,
-          doloribus ipsum inventore quisquam id vero voluptates harum
+        <p className="text-black text-[20px] w-full  mt-4 mb-4">
+          Are you a gaming enthusiast looking for a riveting online casino experience? If yes, then Teen Patti Gold (or 3 Patti Gold) is a popular Android casino app today. It is taking the virtual gaming scene by storm. Gamers can enjoy nearly 22 games spanning skill, multiplayer, slots, and sports categories. Hence, it is a one-stop-shop for those seeking excitement, friendship, and a chance to win big.
         </p>
-        <div data-aos="zoom-in" data-aos-delay="400" >
-        <button className="before:ease bg-white text-[17px] relative h-12 w-40 overflow-hidden border border-black shadow-2xl before:absolute before:left-0 before:-ml-2 before:h-48 before:w-48 before:origin-top-right before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-blue-900 before:transition-all before:duration-300 hover:text-white hover:shadow-black hover:before:-rotate-180">
-          <span className="relative z-10">Buy Now</span>
-        </button>
+        <p className="text-black text-[20px] w-full  mt-4 mb-4">
+          Teen Patti Online games are trending in India & Pakistan. Virtual gatherings are common nowadays in addition to physical events. That’s why every gamer knows about 3 Patti apps. However, the Teen Patti Gold app ranks among the most reputable portals without any doubt. In this article, you can learn all about this casino-like app. The download link for the updated version is also available here.
+        </p>
+        <div className="mt-6">
+          <button className="px-8 py-3 bg-blue-500 text-white text-[17px] rounded-full">
+            Download Now
+          </button>
         </div>
+      </div>
+      <div className="pr-[20px]">
+        <img src="/images/teenpati.jpg" alt="" className="h-[300px] rounded-[30px]" />
       </div>
     </div>
   );
