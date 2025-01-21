@@ -54,14 +54,15 @@ const Nav: React.FC = () => {
           }`}
         >
           <ul className="h-screen md:h-auto items-center justify-end md:flex space-y-0 md:space-y-0 md:space-x-6">
+          <li className="text-white text-lg hover:text-purple-500 transition-all duration-300">
+              <Link href="/">Home</Link>
+            </li>
             <li className="text-white text-lg hover:text-purple-500 transition-all duration-300">
               <Link href="/About">About</Link>
             </li>
+            
             <li className="text-white text-lg hover:text-purple-500 transition-all duration-300">
-              <Link href="/services">Services</Link>
-            </li>
-            <li className="text-white text-lg hover:text-purple-500 transition-all duration-300">
-            <Link href="/ContactPage">Contact</Link>
+            <Link href="/contactpage">Contact</Link>
             </li>
           </ul>
         </div>

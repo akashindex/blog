@@ -4,21 +4,21 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className="pt-12 pb-12 bg-gradient-to-b from-gray-800 via-gray-900 to-black text-white">
-            {/* Upper Section */}
+
             <div className="w-[90%] mx-auto border-b border-gray-700 pb-8 flex  justify-between gap-8">
-                {/* Logo and Description */}
+
                 <div className="flex flex-col w-full sm:w-[48%] lg:w-[23%]">
                     <Image
                         src="/images/logo copy.png"
                         className="w-20 h-20 mb-4"
                         alt="Company Logo"
-                        width={80}  // Specify width
-                        height={80} // Specify height
+                        width={80}  
+                        height={80} 
                     />
 
                 </div>
 
-                {/* Content Links */}
+
                 <div className="flex flex-col w-full sm:w-[48%] lg:w-[23%]">
                     <h2 className="text-lg font-semibold mb-4">Content</h2>
                     <ul className="space-y-2">
@@ -27,7 +27,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* Social Links */}
+
                 <div className="flex flex-col w-full sm:w-[48%] lg:w-[23%]">
                     <h2 className="text-lg font-semibold mb-4">Social</h2>
                     <ul className="space-y-2">
@@ -38,7 +38,6 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* Legal Links */}
                 <div className="flex flex-col w-full sm:w-[48%] lg:w-[23%]">
                     <h2 className="text-lg font-semibold mb-4">Legal</h2>
                     <ul className="space-y-2">
@@ -48,7 +47,6 @@ const Footer = () => {
                 </div>
             </div>
 
-            {/* Bottom Section */}
             <div className="mt-8 w-[90%] mx-auto flex flex-wrap items-center justify-between gap-4">
                 <p className="text-sm opacity-70">&copy; 2025</p>
                 <Image

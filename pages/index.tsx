@@ -5,6 +5,7 @@ import Featuredroducts from "@/components/Featuredroducts";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import BlogSlider from "@/components/Blogslider";
 
 
 
@@ -26,6 +27,7 @@ const HomePage = () => {
     <div className="overflow-hidden">
       <Hero />
       <Featuredroducts />
+      <BlogSlider />
     </div>
   );
 };
