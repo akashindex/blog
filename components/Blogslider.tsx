@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from 'next/image';
 
 const BlogSlider: React.FC = () => {
   const slides = [
@@ -33,11 +34,12 @@ const BlogSlider: React.FC = () => {
       <div className="flex items-center max-w-5xl bg-white rounded-lg shadow-lg  relative">
         <div className="relative w-1/3 p-[40px_0px] ml-[20px]">
           <div className="relative w-full h-64 rounded-lg overflow-hidden">
-            <img
+            <Image
               src={slides[currentIndex].img}
               alt={slides[currentIndex].title}
               className="w-full h-full object-cover"
             />
+
             <div className="absolute inset-0 bg-gradient-to-t from-red-500 to-transparent opacity-70"></div>
           </div>
         </div>
@@ -65,11 +67,10 @@ const BlogSlider: React.FC = () => {
           {slides.map((_, index) => (
             <button
               key={index}
-              className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                currentIndex === index
+              className={`w-3 h-3 rounded-full transition-all duration-300 ${currentIndex === index
                   ? "bg-red-500 shadow-lg scale-125 h-[30px]"
                   : "bg-gray-300 hover:bg-gray-400"
-              }`}
+                }`}
               onClick={() => goToSlide(index)}
               aria-label={`Go to slide ${index + 1}`}
             ></button>
