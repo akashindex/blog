@@ -1,4 +1,5 @@
 import React from 'react';
+import Question from "@/components/Question";
 
 const About = () => {
   return (
@@ -22,8 +23,10 @@ const About = () => {
             gaming journey!
           </p>
         </div>
+        <Question />
       </div>
     </section>
+
   );
 };
 

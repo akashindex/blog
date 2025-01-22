@@ -13,7 +13,7 @@ const FeaturedProducts: React.FC = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center mx-auto bg-gray-100">
+    <div className="flex items-center justify-center mx-auto bg-gray-100 pt-[30px] pb-[30px]">
       <table className="table-auto w-[70%] border-collapse border border-gray-300 bg-white shadow-md">
         <thead>
           <tr className="bg-gray-200">

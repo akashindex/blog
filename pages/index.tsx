@@ -6,6 +6,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import BlogSlider from "@/components/Blogslider";
+import Overview from "@/components/overview";
+import Informationpage from "@/components/Informationpage";
+import Question from "@/components/Question";
 
 
 
@@ -24,10 +27,13 @@ const HomePage = () => {
   },[]);
 
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden ">
       <Hero />
       <Featuredroducts />
       <BlogSlider />
+      <Overview/>
+      <Informationpage />
+      <Question />
     </div>
   );
 };

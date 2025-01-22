@@ -12,7 +12,7 @@ const Nav: React.FC = () => {
   const [navbar, setNavbar] = useState<boolean>(false);
 
   return (
-    <nav className="w-full mg fixed top-0 left-0 right-0 z-10">
+    <nav className="w-full mg fixed top-0 left-0 right-0 z-10 font-rethink">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         {/* Logo Section */}
         <div>
