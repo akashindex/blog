@@ -20,13 +20,13 @@ const contentSections = [
 
 function Overview() {
     return (
-        <div className="overview-container mt-5 bg-gray-50 min-h-screen font-rethink">
-            <header className="overview-header bg-white text-balck text-center max-sm:py-6 sm:py-8">
-                <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-wide">
+        <div className="overview-container bg text-white min-h-screen font-rethink">
+            <header className="overview-header text-balck text-center max-sm:py-6 sm:py-8">
+                <h1 className="text-2xl max-sm:text-2xl lg:text-4xl font-[400] text-[#2356FE] tracking-wide">
                     Overview Page
                 </h1>
             </header>
-            <main className="overview-content flex flex-col items-center p-4 sm:p-6 space-y-6 bg-gradient-to-b from-gray-800 via-gray-900 to-black">
+            <main className="overview-content flex flex-col items-center p-4 sm:p-6 space-y-6 ">
                 {contentSections.map((section, index) => (
                     <section
                         key={index}

@@ -34,7 +34,7 @@ const FAQs: React.FC = () => {
   };
 
   return (
-    <section className="font-rethink mx-auto mt-[80px] bg-black w-full text-white p-8">
+    <section className="font-rethink mx-auto bg-black w-full text-white p-8">
       <div className="mx-auto flex justify-center w-[1200px] flex-col  lg:flex-row max-sm:w-[100%] sm:w-[100%]">
         <h2 className="text-[50px] leading-[60px] mb-6 lg:w-[486px]">
           Got Questions? We’ve
@@ -46,8 +46,8 @@ const FAQs: React.FC = () => {
               key={index}
               className={`p-4 border rounded-lg transition-all duration-300 ease-in-out ${
                 activeIndex === index
-                  ? "bg-[#0C1B53] border-[#6589FF] shadow-lg h-[130px]"
-                  : "bg-[#0e1838] border-blue-100 h-[68px] overflow-hidden"
+                  ? "bg-[#0C1B53] border-[#6589FF] shadow-lg "
+                  : "bg-[#0e1838] border-blue-100 overflow-hidden"
               }`}
             >
               <div

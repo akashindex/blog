@@ -13,12 +13,12 @@ const FeaturedProducts: React.FC = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center mx-auto bg-gray-100 pt-[30px] pb-[30px]">
+    <div className="flex items-center justify-center mx-auto bg pt-[30px] pb-[30px]">
       <table className="table-auto w-[70%] border-collapse border border-gray-300 bg-white shadow-md">
         <thead>
           <tr className="bg-gray-200">
-            <th className="px-4 py-2 border border-gray-300 text-left">Label</th>
-            <th className="px-4 py-2 border border-gray-300 text-left">Value</th>
+            <th className="px-4 py-2 bg text-white text-left">Label</th>
+            <th className="px-4 py-2 bg  text-white text-left">Value</th>
           </tr>
         </thead>
         <tbody>

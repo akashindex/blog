@@ -1,4 +1,6 @@
 import React from 'react';
+import DownloadButton from "./Button"
+
 
 // Data for Features
 const features = [
@@ -89,10 +91,10 @@ const withdrawSteps = [
 
 function Informationpage() {
   return (
-    <div className=" font-rethink bg-gray-100 text-gray-800 p-6 sm:p-8 lg:p-12 space-y-8">
+    <div className=" font-rethink bg  text-white p-6 sm:p-8 lg:p-12 space-y-8">
       {/* Introduction */}
       <div className="bg-white shadow-md rounded-lg p-6 sm:p-8 font-rethink">
-        <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-black">
+        <h1 className="text-[50px] leading-[60px] text-[#2356FE]">
           3 Patti Gold: Your Ultimate Online Gaming App
         </h1>
         <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
@@ -104,12 +106,12 @@ function Informationpage() {
       </div>
 
       {/* Core Features */}
-      <div className="bg-gray-50 p-6 sm:p-8 rounded-lg shadow-lg">
+      <div className=" p-6 sm:p-8 rounded-lg bg shadow-lgshadow-lg">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white p-4 rounded-lg border border-green-300 shadow-md"
+              className="bg-white p-4 rounded-lg border-[2px] shadow-md"
             >
               <h3 className="text-lg font-bold text-black mb-2">{feature.title}</h3>
               <p className="text-sm sm:text-base text-black">{feature.description}</p>
@@ -119,15 +121,15 @@ function Informationpage() {
       </div>
 
       {/* Games Section */}
-      <div className="bg-white shadow-md rounded-lg p-6 sm:p-8">
-        <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">
+      <div className=" rounded-lg p-6 sm:p-8 bg shadow-lgshadow-lg">
+        <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-white mb-4">
           Games Available
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {games.map((game, index) => (
             <div
               key={index}
-              className="bg-gray-100 p-2 sm:p-4 text-center rounded-full shadow-sm text-gray-800 font-medium text-sm sm:text-base transition-all transform duration-300 hover:scale-105 hover:bg-gradient-to-b from-gray-800 via-gray-900 to-black hover:text-white"
+              className="bg-gray-100 p-2 sm:p-4 text-center rounded-full shadow-sm text-gray-800 font-medium text-sm sm:text-base transition-all transform duration-300 hover:scale-105 hover:bg-[#2356FE] hover:text-white"
             >
               {game}
             </div>
@@ -135,7 +137,7 @@ function Informationpage() {
         </div>
       </div>
 
-      <div className='flex justify-evenly gap-[20px] max-sm:flex-col'>
+      <div className='flex justify-evenly gap-[20px] max-sm:flex-col bg shadow-lgshadow-lg'>
         {/* Download Steps */}
         <div className="bg-gray-50 shadow-md rounded-lg p-6 sm:p-8">
           <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold    text-black mb-4">
@@ -167,6 +169,9 @@ function Informationpage() {
             ))}
           </ol>
         </div>
+      </div>
+      <div className='flex items-center justify-center'>
+      <DownloadButton />
       </div>
     </div>
   );

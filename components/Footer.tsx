@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className="pt-12 pb-12 bg-gradient-to-b from-gray-800 via-gray-900 to-black text-white">
+        <div className="pt-12 pb-12 bg text-white">
 
             <div className="w-[90%] mx-auto border-b border-gray-700 pb-8 flex  justify-between gap-8">
 
