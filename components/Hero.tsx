@@ -5,9 +5,9 @@ import DownloadButton from "./Button"
 
 const Hero = () => {
   return (
-    <div className="flex flex-col-reverse sm:flex-row items-center mt-[105px] md:mt-[120px] bg md:p-[20px] mx-auto">
+    <div className="flex flex-col-reverse sm:flex-row items-center mt-[105px] max-sm:mt-[120px] bg max-sm:px-[30px] mx-auto sm:px-[110px] ">
       {/* Text Section */}
-      <div className="w-[90%] md:w-[80%] flex flex-col p-[20px] sm:p-[30px] justify-center">
+      <div className="w-[90%] md:w-[80%] flex flex-col p-[20px] sm:p-[30px] justify-center max-w-[80%]">
         <div className="text-white font-bold text-[24px] sm:text-[30px] lg:text-[40px] uppercase mb-6 sm:mb-10 mt-6 sm:mt-10">
         Teen Patti Gold APK Pakistan | Free Download Latest Version for Android!
         </div>
@@ -21,13 +21,13 @@ const Hero = () => {
       </div>
 
       {/* Image Section */}
-      <div className="w-[90%] sm:w-auto mb-6 sm:mb-0 sm:pr-[20px]">
+      <div className="w-[90%]  ">
         <Image
           src="/images/teenpati.jpg"
           alt="description"
           width={400}
-          height={300}
-          className="rounded-[50px] sm:rounded-[50px]"
+          height={400}
+          className="rounded-[20%] "
         />
       </div>
     </div>

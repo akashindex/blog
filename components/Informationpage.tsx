@@ -91,11 +91,11 @@ const withdrawSteps = [
 
 function Informationpage() {
   return (
-    <div className=" font-rethink bg  text-white p-6 sm:p-8 lg:p-12 space-y-8">
+    <div className=" font-rethink bg  text-white max-sm:p-8 space-y-8 px-[110px] mx-auto pt-[30px] ">
       {/* Introduction */}
-      <div className="bg-white shadow-md rounded-lg p-6 sm:p-8 font-rethink">
+      <div className="bg-white shadow-md rounded-lg p-6  font-rethink w-[94%] mx-auto">
         <h1 className="text-[50px] leading-[60px] text-[#2356FE]">
-          3 Patti Gold: Your Ultimate Online Gaming App
+          3 Patti Gold Your Ultimate Online Gaming App
         </h1>
         <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
           3 Patti Gold Apk is an online play-to-earn platform. As the app’s name signals, it has the famous card game called Teen Patti and other card game variants like Andar Bahar, Roulette, Baccarat, and dice games. There are over 20 different games which are enough to keep you entertained while they introduce new games in the updates.
@@ -122,7 +122,7 @@ function Informationpage() {
 
       {/* Games Section */}
       <div className=" rounded-lg p-6 sm:p-8 bg shadow-lgshadow-lg">
-        <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-white mb-4">
+        <h2 className=" text-[50px] leading-[60px] text-[#2356FE] mb-[20px]">
           Games Available
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
