@@ -140,7 +140,7 @@ function Informationpage() {
       <div className='flex justify-evenly gap-[20px] max-sm:flex-col bg shadow-lgshadow-lg'>
         {/* Download Steps */}
         <div className="bg-gray-50 shadow-md rounded-lg p-6 sm:p-8">
-          <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold    text-black mb-4">
+          <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">
             How to Download and Install
           </h2>
           <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">

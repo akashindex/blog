@@ -35,7 +35,7 @@ const FAQs: React.FC = () => {
 
   return (
     <section className="font-rethink mx-auto bg w-full text-white p-8">
-      <div className="mx-auto flex justify-center w-[1200px] flex-col  lg:flex-row max-sm:w-[100%] sm:w-[100%]">
+      <div className="mx-auto flex justify-evenly w-[1200px] flex-col  lg:flex-row max-sm:w-[100%] sm:w-[100%]">
         <h2 className="text-[50px] leading-[60px] mb-6 lg:w-[486px]">
           Got Questions? We’ve
           <span className="text-[#d99101]"> Got Answers</span>

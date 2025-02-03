@@ -44,6 +44,16 @@ const Footer = () => {
                         <li className="opacity-70 hover:opacity-100 cursor-pointer">
                             <Link href="#">LinkedIn</Link>
                         </li>
+                        <li className="opacity-70 hover:opacity-100 cursor-pointer">
+                            <Link href="#">Pinterest</Link>
+                        </li>
+                        <li className="opacity-70 hover:opacity-100 cursor-pointer">
+                            <Link href="#">Reddit</Link>
+                        </li>
+                        <li className="opacity-70 hover:opacity-100 cursor-pointer">
+                            <Link href="#">Tumblr</Link>
+                        </li>
+
                     </ul>
                 </div>
 
