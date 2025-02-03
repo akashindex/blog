@@ -34,11 +34,11 @@ const FAQs: React.FC = () => {
   };
 
   return (
-    <section className="font-rethink mx-auto bg-black w-full text-white p-8">
+    <section className="font-rethink mx-auto bg w-full text-white p-8">
       <div className="mx-auto flex justify-center w-[1200px] flex-col  lg:flex-row max-sm:w-[100%] sm:w-[100%]">
         <h2 className="text-[50px] leading-[60px] mb-6 lg:w-[486px]">
           Got Questions? We’ve
-          <span className="text-[#2356FE]"> Got Answers</span>
+          <span className="text-[#d99101]"> Got Answers</span>
         </h2>
         <div className="flex flex-col gap-[10px] lg:w-[628px]">
           {faqs.map((faq, index) => (

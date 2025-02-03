@@ -32,7 +32,7 @@ const DownloadButton: React.FC = () => {
 
   return (
       <motion.button
-        className="cursor-pointer bg-transparent border-none outline-none font-rethink font-[30px] "
+        className="cursor-pointer bg-transparent border-none outline-none  font-rethink font-[30px] "
         onClick={startDownload}
       >
         <svg
@@ -58,7 +58,7 @@ const DownloadButton: React.FC = () => {
             cx="20"
             cy="35"
             r="8.5"
-            fill="#00cffc"
+            fill="#d99101"
             className="mainCircle"
           />
           <circle
@@ -69,15 +69,6 @@ const DownloadButton: React.FC = () => {
             strokeWidth="0.9"
             fill="url(#gradient)"
             className="mainCircleFill"
-          />
-          <rect
-            x="17.5"
-            y="32.5"
-            width="5"
-            height="5"
-            stroke="none"
-            fill="#00cffc"
-            className="rect"
           />
           <path
             d="M20,39 l3.5,-3.5 l0,0 M20,39 l-3.5,-3.5 l0,0 M20,39 l0,-7.5"
@@ -103,13 +94,13 @@ const DownloadButton: React.FC = () => {
           {/* Text */}
           <motion.text
             x="55"
-            y="36.5"
+            y="37.5"
             fill="#fff"
             textAnchor="middle"
             fontSize="4.5" // Smaller font size
             fontFamily="Roboto"
             letterSpacing="0.2"
-            className="text"
+            className="text-[8px] "
             initial={{ opacity: 1, y: 0 }}
             animate={{
               opacity: downloading ? 0 : 1,
@@ -117,7 +108,7 @@ const DownloadButton: React.FC = () => {
               transition: { duration: 0.3 },
             }}
           >
-            {completed ? "open" : downloading ? "" : "download"}
+            {completed ? "open" : downloading ? "" : "DOWNLOAD"}
           </motion.text>
 
           {/* Dot */}

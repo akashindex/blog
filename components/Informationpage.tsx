@@ -94,7 +94,7 @@ function Informationpage() {
     <div className=" font-rethink bg  text-white max-sm:p-8 space-y-8 px-[110px] mx-auto pt-[30px] ">
       {/* Introduction */}
       <div className="bg-white shadow-md rounded-lg p-6  font-rethink w-[94%] mx-auto">
-        <h1 className="text-[50px] leading-[60px] text-[#2356FE] text-center">
+        <h1 className="text-[50px] leading-[60px] max-sm:text-[30px] max-sm:leading-[20px] text-[#d99101] text-center">
           3 Patti Gold Your Ultimate Online Gaming App
         </h1>
         <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
@@ -113,7 +113,7 @@ function Informationpage() {
               key={index}
               className="bg-white p-4 rounded-lg border-[2px] shadow-md"
             >
-              <h3 className="text-lg font-bold text-black mb-2">{feature.title}</h3>
+              <h3 className="text-lg font-bold text-[#d99101] mb-2">{feature.title}</h3>
               <p className="text-sm sm:text-base text-black">{feature.description}</p>
             </div>
           ))}
@@ -121,8 +121,8 @@ function Informationpage() {
       </div>
 
       {/* Games Section */}
-      <div className=" rounded-lg p-6 sm:p-8 bg shadow-lgshadow-lg">
-        <h2 className=" text-[50px] leading-[60px] text-[#2356FE] mb-[20px]">
+      <div className=" rounded-lg p-6  bg shadow-lg max-sm:mb-[10px]">
+        <h2 className=" text-[50px] leading-[60px] text-[#d99101] max-sm:text-[30px] mb-[20px]">
           Games Available
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">

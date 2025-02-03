@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import Link from 'next/link';
 
 const Footer = () => {
     return (
@@ -31,10 +32,18 @@ const Footer = () => {
                 <div className="flex flex-col w-full sm:w-[48%] lg:w-[23%]">
                     <h2 className="text-lg font-semibold mb-4">Social</h2>
                     <ul className="space-y-2">
-                        <li className="opacity-70 hover:opacity-100 cursor-pointer">YouTube</li>
-                        <li className="opacity-70 hover:opacity-100 cursor-pointer">Facebook</li>
-                        <li className="opacity-70 hover:opacity-100 cursor-pointer">Instagram</li>
-                        <li className="opacity-70 hover:opacity-100 cursor-pointer">LinkedIn</li>
+                        <li className="opacity-70 hover:opacity-100 cursor-pointer">
+                            <Link href="#">YouTube</Link>
+                        </li>
+                        <li className="opacity-70 hover:opacity-100 cursor-pointer">
+                            <Link href="#">Facebook</Link>
+                        </li>
+                        <li className="opacity-70 hover:opacity-100 cursor-pointer">
+                            <Link href="#">Instagram</Link>
+                        </li>
+                        <li className="opacity-70 hover:opacity-100 cursor-pointer">
+                            <Link href="#">LinkedIn</Link>
+                        </li>
                     </ul>
                 </div>
 

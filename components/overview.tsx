@@ -22,7 +22,7 @@ function Overview() {
     return (
         <div className="overview-container bg text-white  font-rethink">
             <header className="overview-header text-balck text-center max-sm:py-6 sm:py-8">
-                <h1 className="text-2xl max-sm:text-2xl lg:text-4xl font-[400] text-[#2356FE] tracking-wide">
+                <h1 className="text-[50px] font-[400] max-sm:text-[30px] text-[#d99101] tracking-wide">
                     Overview Page
                 </h1>
             </header>
