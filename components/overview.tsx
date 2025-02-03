@@ -20,18 +20,18 @@ const contentSections = [
 
 function Overview() {
     return (
-        <div className="overview-container bg text-white  font-rethink">
-            <header className="overview-header text-balck text-center max-sm:py-6 sm:py-8">
-                <h1 className="text-[50px] font-[400] max-sm:text-[30px] text-[#d99101] tracking-wide">
+        <div className="bg text-white  font-rethink">
+            <header className="overview-header text-balck text-center ">
+                <h1 className="text-[50px] font-[400] max-sm:text-[30px] text-[#d99101] ">
                     Overview Page
                 </h1>
             </header>
             <main className="overview-content flex flex-col items-center p-4 sm:p-6 space-y-2">
-                <ul className="w-[80%] list-none pl-6">
+                <ul className="w-[80%] list-none ">
                     {contentSections.map((section, index) => (
                         <li
                             key={index}
-                            className="overview-section p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out"
+                            className="overview-section rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out"
                         >
                             <p className="text-[20px] max-sm:text-[16px] text-white">
                                 {section.text}
