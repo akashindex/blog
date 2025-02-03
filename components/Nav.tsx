@@ -11,9 +11,13 @@ import React, { useState } from "react";
 const Nav: React.FC = () => {
   const [navbar, setNavbar] = useState<boolean>(false);
 
+  const closeNavbar = () => {
+    setNavbar(false);
+  };
+
   return (
     <nav className="w-full bg fixed top-0 left-0 right-0 z-10 font-rethink">
-      <div className="justify-between px-4 mx-[23px]  md:items-center md:flex md:px-8">
+      <div className="justify-between px-4 mx-[23px] md:items-center md:flex md:px-8">
         {/* Logo Section */}
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -54,15 +58,14 @@ const Nav: React.FC = () => {
           }`}
         >
           <ul className="h-screen md:h-auto items-center justify-end md:flex space-y-0 md:space-y-0 md:space-x-6">
-          <li className="text-white text-lg hover:text-purple-500 transition-all duration-300">
+            <li className="text-white text-lg hover:text-purple-500 transition-all duration-300" onClick={closeNavbar}>
               <Link href="/">Home</Link>
             </li>
-            <li className="text-white text-lg hover:text-purple-500 transition-all duration-300">
+            <li className="text-white text-lg hover:text-purple-500 transition-all duration-300" onClick={closeNavbar}>
               <Link href="/About">About</Link>
             </li>
-            
-            <li className="text-white text-lg hover:text-purple-500 transition-all duration-300">
-            <Link href="/contactpage">Contact</Link>
+            <li className="text-white text-lg hover:text-purple-500 transition-all duration-300" onClick={closeNavbar}>
+              <Link href="/contactpage">Contact</Link>
             </li>
           </ul>
         </div>

@@ -4,7 +4,7 @@ import React from 'react'
 
 function contactpage() {
   return (
-   <div className=' md:mt-[100px] mt-[180px]'>
+   <div className=' max-sm:mt-[100px] mt-[110px]'>
     <ContactForm/>
    </div>
   )
