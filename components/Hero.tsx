@@ -23,7 +23,7 @@ const Hero = () => {
       {/* Image Section */}
       <div className=" sm:w-[50%] ">
         <Image
-          src="/images/teenpati.jpg"
+          src="/images/logoii.jpg"
           alt="description"
           width={400}
           height={400}

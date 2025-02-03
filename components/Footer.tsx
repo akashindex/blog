@@ -29,29 +29,24 @@ const Footer = () => {
                 </div>
 
 
+                
                 <div className="flex flex-col w-full sm:w-[48%] lg:w-[23%]">
                     <h2 className="text-lg font-semibold mb-4">Social</h2>
                     <ul className="space-y-2">
                         <li className="opacity-70 hover:opacity-100 cursor-pointer">
-                            <Link href="#">YouTube</Link>
+                            <Link href="https://www.facebook.com/profile.php?id=61564106084402&mibextid=wwXIfr&rdid=c7KcK83alhn7tX5Q&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18vNnyjj6D%2F%3Fmibextid%3DwwXIfr#">Facebook</Link>
                         </li>
                         <li className="opacity-70 hover:opacity-100 cursor-pointer">
-                            <Link href="#">Facebook</Link>
+                            <Link href="https://www.pinterest.com/TeenPattiGold_pk/">Pinterest</Link>
                         </li>
                         <li className="opacity-70 hover:opacity-100 cursor-pointer">
-                            <Link href="#">Instagram</Link>
+                            <Link href="https://www.reddit.com/user/Potential_Shape9833/">Reddit</Link>
                         </li>
                         <li className="opacity-70 hover:opacity-100 cursor-pointer">
-                            <Link href="#">LinkedIn</Link>
+                            <Link href="https://www.tumblr.com/blog/pkteenpattigold">Tumblr</Link>
                         </li>
                         <li className="opacity-70 hover:opacity-100 cursor-pointer">
-                            <Link href="#">Pinterest</Link>
-                        </li>
-                        <li className="opacity-70 hover:opacity-100 cursor-pointer">
-                            <Link href="#">Reddit</Link>
-                        </li>
-                        <li className="opacity-70 hover:opacity-100 cursor-pointer">
-                            <Link href="#">Tumblr</Link>
+                            <Link href="https://www.youtube.com/@TeenPatiGold-w1r?app=desktop">Youtube</Link>
                         </li>
 
                     </ul>
