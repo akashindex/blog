@@ -21,7 +21,7 @@ const Hero = () => {
       </div>
 
       {/* Image Section */}
-      <div className="w-[90%]  ">
+      <div className="w-[50%]  ">
         <Image
           src="/images/teenpati.jpg"
           alt="description"

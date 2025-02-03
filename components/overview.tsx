@@ -27,13 +27,13 @@ function Overview() {
                 </h1>
             </header>
             <main className="overview-content flex flex-col items-center p-4 sm:p-6 space-y-2">
-                <ul className="w-[80%] list-disc pl-6">
+                <ul className="w-[80%] list-none pl-6">
                     {contentSections.map((section, index) => (
                         <li
                             key={index}
                             className="overview-section p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out"
                         >
-                            <p className="text-sm sm:text-base lg:text-lg text-white">
+                            <p className="text-[20px] max-sm:text-[16px] text-white">
                                 {section.text}
                             </p>
                         </li>

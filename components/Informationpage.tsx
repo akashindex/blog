@@ -94,7 +94,7 @@ function Informationpage() {
     <div className=" font-rethink bg  text-white max-sm:p-8 space-y-8 px-[110px] mx-auto pt-[30px] ">
       {/* Introduction */}
       <div className="bg-white shadow-md rounded-lg p-6  font-rethink w-[94%] mx-auto">
-        <h1 className="text-[50px] leading-[60px] text-[#2356FE]">
+        <h1 className="text-[50px] leading-[60px] text-[#2356FE] text-center">
           3 Patti Gold Your Ultimate Online Gaming App
         </h1>
         <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
