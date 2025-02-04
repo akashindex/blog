@@ -5,7 +5,7 @@ import DownloadButton from "./Button"
 
 const Hero = () => {
   return (
-    <div className="flex flex-col-reverse sm:flex-row items-center mt-[105px] max-sm:mt-[104px] bg max-sm:px-[30px] mx-auto sm:px-[110px] ">
+    <div className="flex flex-col-reverse sm:flex-row items-center mt-[105px] max-sm:mt-[104px] bg max-sm:px-[30px] mx-auto sm:px-[110px] px-[40px] ">
       {/* Text Section */}
       <div className="flex flex-col justify-center max-sm:text-center sm:w-[80%]">
         <div className="text-[#d99101] font-bold text-[24px] sm:text-[30px] lg:text-[40px] uppercase mt-[15px]">

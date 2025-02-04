@@ -163,7 +163,7 @@ function Informationpage() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto p-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto p-6">
           {/* Download Steps */}
           <div className="mg shadow-md rounded-lg p-6 sm:p-8">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">
