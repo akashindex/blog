@@ -50,7 +50,8 @@ function ProAndCons() {
             </ul>
           </div>
         </div>
-        <div className="mg p-6 rounded-lg shadow-md">
+        <div className="mg  rounded-lg shadow-md">
+        <h3 className="text-2xl font-semibold text-[#d99101] mb-4">conclusion</h3>
           <p className="text-lg leading-relaxed text-justify">{conclusionText}</p>
         </div>
       </div>

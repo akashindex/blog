@@ -216,7 +216,7 @@ function Informationpage() {
             </ol>
           </div>
           {/* Install Steps */}
-          <div className=" shadow-md rounded-lg p-6 sm:p-8 md:col-span-3">
+          <div className=" shadow-md rounded-lg p-6 sm:p-8 md:col-span-2">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">
               How to Download and Install 3 Patti Gold APK on Android?
             </h2>
