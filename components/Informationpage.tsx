@@ -1,5 +1,7 @@
 import React from 'react';
 import DownloadButton from "./Button"
+import { section } from 'framer-motion/client';
+import ProAndCons from './proandcons';
 
 
 // Data for Features
@@ -89,91 +91,152 @@ const withdrawSteps = [
   "Select Easypaisa or Jazzcash and confirm the transaction.",
 ];
 
+const installSteps = [
+  "To download Teen Patti Gold APK, users simply need to tap on the download link offered on this page.",
+  "The download process will begin within a few seconds of delay.",
+  "Once the APK file is downloaded, go to the Android device Settings > Security Settings and click on 'Enable unknown sources installations'.",
+  "Now go to the downloads folder in the file manager and find and tap on 3 Patti Gold APK file.",
+  "Tap on the APK file and follow the installation shield instructions.",
+  "Launch the app and enjoy.",
+];
+const accountSteps = [
+  "Open the app after installation.",
+  "Go to 'Play as a Guest' and access the homepage.",
+  "Click on the ID at the top left corner.",
+  "Select the 'Bind' option.",
+  "Fill out the form: Enter Email > Get OTP > Write Captcha > Create and Confirm Password.",
+  "Click on 'Confirm' to create your account."
+];
+const ipIssueSteps = [
+  "Download a well-known VPN application.",
+  "Open the VPN and connect to a different location.",
+  "Launch 3 Patti Gold and try accessing the game again."
+];
+
+
 function Informationpage() {
   return (
-    <div className=" font-rethink bg  text-white max-sm:p-8 space-y-8 px-[110px] mx-auto pt-[30px] ">
-      {/* Introduction */}
-      <div className="bg-white shadow-md rounded-lg p-6  font-rethink w-[94%] mx-auto">
-        <h1 className="text-[50px] leading-[60px] max-sm:text-[30px] max-sm:leading-[30px] text-[#d99101] text-center">
-          3 Patti Gold Your Ultimate Online Gaming App
-        </h1>
-        <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
-          3 Patti Gold Apk is an online play-to-earn platform. As the app’s name signals, it has the famous card game called Teen Patti and other card game variants like Andar Bahar, Roulette, Baccarat, and dice games. There are over 20 different games which are enough to keep you entertained while they introduce new games in the updates.
-          Card games have been loved by South Asians for centuries and people in India and Pakistan still play Teen Patti which is like Indian Poker with slightly different rules. In the past people used to go to physical casinos to enjoy all these games but with time they were replaced by online casino platforms which are a lot more convenient than physical casinos. If you are also interested in playing casino games online, 3 Patti Gold Game is a great option.
-          Apart from different games, this app also offers income prospects. Players can earn money through games, winning prizes, bonuses, and rewards. The money earned can be then cashed out to your e-wallets such as Easypaisa and Jazzcash.
+    <section>
+      <div className=" font-rethink mg   max-sm:p-8 space-y-8 px-[110px] mx-auto pt-[30px] ">
+        {/* Introduction */}
+        <div className=" shadow-md rounded-lg p-6  font-rethink w-[94%] mx-auto">
+          <h1 className="text-[50px] leading-[60px] max-sm:text-[30px] max-sm:leading-[30px] text-[#d99101] text-center">
+            3 Patti Gold Your Ultimate Online Gaming App
+          </h1>
+          <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
+            3 Patti Gold Apk is an online play-to-earn platform. As the app’s name signals, it has the famous card game called Teen Patti and other card game variants like Andar Bahar, Roulette, Baccarat, and dice games. There are over 20 different games which are enough to keep you entertained while they introduce new games in the updates.
+            Card games have been loved by South Asians for centuries and people in India and Pakistan still play Teen Patti which is like Indian Poker with slightly different rules. In the past people used to go to physical casinos to enjoy all these games but with time they were replaced by online casino platforms which are a lot more convenient than physical casinos. If you are also interested in playing casino games online, 3 Patti Gold Game is a great option.
+            Apart from different games, this app also offers income prospects. Players can earn money through games, winning prizes, bonuses, and rewards. The money earned can be then cashed out to your e-wallets such as Easypaisa and Jazzcash.
 
-        </p>
-      </div>
-
-      {/* Core Features */}
-      <div className=" p-6 sm:p-8 rounded-lg bg shadow-lgshadow-lg">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {features.map((feature, index) => (
-            <div
-              key={index}
-              className="bg-white p-4 rounded-lg border-[2px] shadow-md"
-            >
-              <h3 className="text-lg font-bold text-[#d99101] mb-2">{feature.title}</h3>
-              <p className="text-sm sm:text-base text-black">{feature.description}</p>
-            </div>
-          ))}
+          </p>
         </div>
-      </div>
 
-      {/* Games Section */}
-      <div className=" rounded-lg p-6  bg shadow-lg max-sm:mb-[10px]">
-        <h2 className=" text-[50px] leading-[60px] text-[#d99101] max-sm:text-[30px] mb-[20px]">
-          Games Available
-        </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-          {games.map((game, index) => (
-            <div
-              key={index}
-              className="bg-gray-100 p-2 sm:p-4 text-center rounded-full shadow-sm text-gray-800 font-medium text-sm sm:text-base transition-all transform duration-300 hover:scale-105 hover:bg-[#2356FE] hover:text-white"
-            >
-              {game}
-            </div>
-          ))}
+        {/* Core Features */}
+        <div className=" p-6 sm:p-8 rounded-lg mg">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {features.map((feature, index) => (
+              <div
+                key={index}
+                className=" p-4 rounded-lg border-[2px] shadow-md"
+              >
+                <h3 className="text-lg font-bold text-[#d99101] mb-2">{feature.title}</h3>
+                <p className="text-sm sm:text-base text-black">{feature.description}</p>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
 
-      <div className='flex justify-evenly gap-[20px] max-sm:flex-col bg shadow-lgshadow-lg'>
-        {/* Download Steps */}
-        <div className="bg-gray-50 shadow-md rounded-lg p-6 sm:p-8">
-          <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">
-            How to Download and Install
+        {/* Games Section */}
+        <div className=" rounded-lg p-6  mg shadow-lg max-sm:mb-[10px]">
+          <h2 className=" text-[50px] leading-[60px] text-[#d99101] max-sm:text-[30px] mb-[20px] text-center">
+            Games Available
           </h2>
-          <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
-            {downloadSteps.map((step, index) => (
-              <li key={index} className="text-black">{step}</li>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            {games.map((game, index) => (
+              <div
+                key={index}
+                className="bg-gray-100 p-2 sm:p-4 text-center rounded-full shadow-sm text-gray-800 font-medium text-sm sm:text-base transition-all transform duration-300 hover:scale-105 hover:bg-[#d99101] hover:text-white"
+              >
+                {game}
+              </div>
             ))}
-          </ol>
+          </div>
         </div>
 
-        {/* Deposit Steps */}
-        <div className="bg-white shadow-md rounded-lg p-6 sm:p-8">
-          <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">How to Deposit Money</h2>
-          <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
-            {depositSteps.map((step, index) => (
-              <li key={index} className="text-black">{step}</li>
-            ))}
-          </ol>
-        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto p-6">
+          {/* Download Steps */}
+          <div className="mg shadow-md rounded-lg p-6 sm:p-8">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">
+              How to Download and Install
+            </h2>
+            <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
+              {downloadSteps.map((step, index) => (
+                <li key={index} className="text-black">{step}</li>
+              ))}
+            </ol>
+          </div>
 
-        {/* Withdraw Steps */}
-        <div className="bg-gray-50 shadow-md rounded-lg p-6 sm:p-8">
-          <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">How to Withdraw Money</h2>
-          <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
-            {withdrawSteps.map((step, index) => (
-              <li key={index} className="text-black">{step}</li>
-            ))}
-          </ol>
+          {/* Deposit Steps */}
+          <div className="mg shadow-md rounded-lg p-6 sm:p-8">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">How to Deposit Money</h2>
+            <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
+              {depositSteps.map((step, index) => (
+                <li key={index} className="text-black">{step}</li>
+              ))}
+            </ol>
+          </div>
+
+          {/* Withdraw Steps */}
+          <div className="mg shadow-md rounded-lg p-6 sm:p-8">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">How to Withdraw Money</h2>
+            <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
+              {withdrawSteps.map((step, index) => (
+                <li key={index} className="text-black">{step}</li>
+              ))}
+            </ol>
+          </div>
+
+          
+          <div className="mg shadow-md rounded-lg p-6">
+            <h2 className="text-xl font-semibold text-black mb-4">How to Create an Account or Bind Email</h2>
+            <ol className="list-decimal pl-6 text-lg space-y-2">
+              {accountSteps.map((step, index) => (
+                <li key={index} className="text-black">{step}</li>
+              ))}
+            </ol>
+          </div>
+
+          {/* IP Issue Resolution Steps */}
+          <div className="mg shadow-md rounded-lg p-6">
+            <h2 className="text-xl font-semibold text-black mb-4">How to Solve IP Limit Exceeds Issue</h2>
+            <ol className="list-decimal pl-6 text-lg space-y-2">
+              {ipIssueSteps.map((step, index) => (
+                <li key={index} className="text-black">{step}</li>
+              ))}
+            </ol>
+          </div>
+          {/* Install Steps */}
+          <div className=" shadow-md rounded-lg p-6 sm:p-8 md:col-span-3">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">
+              How to Download and Install 3 Patti Gold APK on Android?
+            </h2>
+            <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6">
+              It is an easy-to-follow process that can be done in seconds if you follow the steps correctly. Also, don’t worry about the safety of the app as it is fully secure and free of viruses. Users can simply follow the listed steps to download and install the APK file.
+            </p>
+            <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
+              {installSteps.map((step, index) => (
+                <li key={index} className="text-black">{step}</li>
+              ))}
+            </ol>
+          </div>
+          
         </div>
       </div>
-      <div className='flex items-center justify-center'>
-      <DownloadButton />
+      <ProAndCons />
+      <div className='flex items-center justify-center bg w-[100%]'>
+        <DownloadButton />
       </div>
-    </div>
+    </section>
   );
 }
 

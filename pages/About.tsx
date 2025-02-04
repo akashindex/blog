@@ -1,10 +1,11 @@
 import React from "react";
 import Question from "@/components/Question";
+import { section } from "framer-motion/client";
 
 const aboutContent = [
   {
     title: "About Us",
-    text: "Welcome to [Site URL], the ultimate destination for Teen Patti Gold! Enjoy the latest version of the app with thrilling card and casino games like Teen Patti, Ludo, Poker, Blackjack, Baccarat, Andar Bahar, and more. Play and win real rewards on Android and PC. Download now and start playing today!"
+    text: "Welcome to , the ultimate destination for Teen Patti Gold! Enjoy the latest version of the app with thrilling card and casino games like Teen Patti, Ludo, Poker, Blackjack, Baccarat, Andar Bahar, and more. Play and win real rewards on Android and PC. Download now and start playing today!"
   },
   {
     title: "Who We Are?",
@@ -29,7 +30,8 @@ const highlights = [
 
 const About = () => {
   return (
-    <section className="mt-24 px-6 sm:px-12 lg:px-20 text-white bg">
+    <section>
+    <div className="mt-24 px-6 sm:px-12 lg:px-20 mg">
       <div className="min-h-screen max-w-7xl mx-auto py-16">
         {aboutContent.map((section, index) => (
           <div key={index} className="mb-12">
@@ -54,8 +56,11 @@ const About = () => {
           </ul>
         </div>
 
-        <Question />
+        
       </div>
+      
+    </div>
+    <Question />
     </section>
   );
 };

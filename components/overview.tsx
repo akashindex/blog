@@ -20,7 +20,7 @@ const contentSections = [
 
 function Overview() {
     return (
-        <div className="bg text-white  font-rethink">
+        <div className="mg  font-rethink">
             <header className="overview-header text-balck text-center ">
                 <h1 className="text-[50px] font-[400] max-sm:text-[30px] text-[#d99101] ">
                     Overview Page
@@ -31,9 +31,9 @@ function Overview() {
                     {contentSections.map((section, index) => (
                         <li
                             key={index}
-                            className="overview-section rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out"
+                            className="mb-[8px]"
                         >
-                            <p className="text-[20px] max-sm:text-[16px] text-white">
+                            <p className="text-[20px] max-sm:text-[16px]">
                                 {section.text}
                             </p>
                         </li>
