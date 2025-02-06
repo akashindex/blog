@@ -17,8 +17,9 @@ function ProAndCons() {
 
   const conclusionText = `
   In a nutshell, 3 Patti Gold APK is a well-known gaming app where there are tons of gaming options such as Teen Patti, Andar Bahar, Roulette, and poker. Each game on this platform brings a chance for you to make easy money. All you need to do is find a game that you have the best skills in.
-  It offers a stable gaming experience through its advanced technology and highly responsive servers. Players can play a variety of games and easily invest their money to gain instant returns. Although it is best to start by investing small amounts or even exploring the platform without investing initially.
-  If you’ve reached this far, then you must be interested in trying out the services of this platform. Download the app for your Android devices from the secure download link and start making online earning.
+It offers a stable gaming experience through its advanced technology and highly responsive servers. Players can play a variety of games and easily invest their money to gain instant returns. Although it is best to start by investing small amounts or even exploring the platform without investing initially.
+If you’ve reached this far, then you must be interested in trying out the services of this platform. Download the app for your Android devices from the secure download link and start making online earning.
+
 `;
 
   return (
@@ -50,7 +51,7 @@ function ProAndCons() {
             </ul>
           </div>
         </div>
-        <div className="mg  rounded-lg shadow-md">
+        <div className="mg  rounded-lg shadow-md p-[10px]">
         <h3 className="text-2xl font-semibold text-[#d99101] mb-4">conclusion</h3>
           <p className="text-lg leading-relaxed text-justify">{conclusionText}</p>
         </div>

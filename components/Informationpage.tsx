@@ -6,6 +6,7 @@ import ProAndCons from './proandcons';
 
 // Data for Features
 const features = [
+  
   {
     title: "Diverse Collection of Games",
     description:
@@ -67,7 +68,8 @@ const features = [
 const games = [
   "Teen Patti", "Andar Bahar", "Roulette", "Blackjack", "Poker", "Domino",
   "Ludo", "Slots", "Bingo", "Fruit Line", "Zoo Roulette", "Mines",
-  "Dragon and Tiger", "Crash", "Best of Five",
+  "Dragon and Tiger", "Crash", "Best of Five","Teen Patti 20-20","Rummy","10 Cards","Variation","777 Bingo","Rattling Gems",
+  "Dynamite World","Sweet Bonanza","Double","7 Up Down","God of Fortune",
 ];
 
 // Data for Steps
@@ -87,30 +89,31 @@ const depositSteps = [
 
 const withdrawSteps = [
   "Tap 'Withdraw' on the homepage.",
-  "Enter the amount you wish to cash out.",
-  "Select Easypaisa or Jazzcash and confirm the transaction.",
+  "	You will see your total balance and the available amount that you can cash out.",
+  "	Mention the amount you want to withdraw.",
+  "	Click on Easypaisa or Jazzcash.",
+  "	Now add your account details such as name and e-wallet account number.",
+  "	Confirm the transaction and click on withdraw.",
+  "	The withdrawal process will take a few minutes to complete",
+  "	The withdrawal process will take a few minutes to complete",
 ];
 
 const installSteps = [
-  "To download Teen Patti Gold APK, users simply need to tap on the download link offered on this page.",
-  "The download process will begin within a few seconds of delay.",
-  "Once the APK file is downloaded, go to the Android device Settings > Security Settings and click on 'Enable unknown sources installations'.",
-  "Now go to the downloads folder in the file manager and find and tap on 3 Patti Gold APK file.",
-  "Tap on the APK file and follow the installation shield instructions.",
-  "Launch the app and enjoy.",
+  "God of Fortune: This is a slot machine game with reels to spin. As you spin the reel you will have to wait for the combination. If you get the same combination of reels in each row, your investment will be doubled or more in some cases.",
+  "Best of Five: It is a card game where players compete in five rounds. If any player wins three out of five rounds he/she will win. Players can choose their desired card games here.",
+  "Dominos: It is also a card game where two decks of 28 cards are played. You will have to make a wager before playing.",
+  "Andar Bahar: It is a South Asian version of a card game and players have to tell the sides of the cards correctly to win.",
 ];
 const accountSteps = [
   "Open the app after installation.",
-  "Go to 'Play as a Guest' and access the homepage.",
-  "Click on the ID at the top left corner.",
+  "	Go to “play as a guest” and you will be redirected to the homepage where you can view different games.",
+  "	On the top left corner, there is an ID where you need to click.",
   "Select the 'Bind' option.",
-  "Fill out the form: Enter Email > Get OTP > Write Captcha > Create and Confirm Password.",
-  "Click on 'Confirm' to create your account."
+  "	You will find a bind option, click on it..",
+  "	Fill out the form: Write your Email>Get OTP>Write Captcha> Create and Confirm your Password."
 ];
 const ipIssueSteps = [
-  "Download a well-known VPN application.",
-  "Open the VPN and connect to a different location.",
-  "Launch 3 Patti Gold and try accessing the game again."
+  "Due to unknown reasons, sometimes even a new player can face IP limitations. To solve this problem, download a well-known VPN and use the app after connecting to the VPN. Switching your IP address can be helpful to overcome IP limitation issues.",
 ];
 
 
@@ -121,18 +124,27 @@ function Informationpage() {
         {/* Introduction */}
         <div className=" shadow-md rounded-lg p-6  font-rethink w-[94%] mx-auto">
           <h1 className="text-[50px] leading-[60px] max-sm:text-[30px] max-sm:leading-[30px] text-[#d99101] text-center">
-            3 Patti Gold Your Ultimate Online Gaming App
+          What is the 3 Patti Gold App
           </h1>
           <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
             3 Patti Gold Apk is an online play-to-earn platform. As the app’s name signals, it has the famous card game called Teen Patti and other card game variants like Andar Bahar, Roulette, Baccarat, and dice games. There are over 20 different games which are enough to keep you entertained while they introduce new games in the updates.
             Card games have been loved by South Asians for centuries and people in India and Pakistan still play Teen Patti which is like Indian Poker with slightly different rules. In the past people used to go to physical casinos to enjoy all these games but with time they were replaced by online casino platforms which are a lot more convenient than physical casinos. If you are also interested in playing casino games online, 3 Patti Gold Game is a great option.
-            Apart from different games, this app also offers income prospects. Players can earn money through games, winning prizes, bonuses, and rewards. The money earned can be then cashed out to your e-wallets such as Easypaisa and Jazzcash.
+            Apart from different games, this app also offers income prospects. Players can earn money through games, winning prizes, bonuses, and rewards. The money earned can be then cashed out to your e-wallets such as Easypaisa and Jazzcash.The availability of these Pakistani e-wallets is another reason why this app is widely used. You can find high-paying games, play and enjoy, and win lots of money. You can also earn through a referral program which will be explained in detail here.
 
           </p>
         </div>
 
         {/* Core Features */}
         <div className=" p-6 sm:p-8 rounded-lg mg">
+        <div className=" rounded-lg p-6  font-rethink w-[94%] mx-auto">
+          <h1 className="text-[50px] leading-[60px] max-sm:text-[30px] max-sm:leading-[30px] text-[#d99101] text-center">
+          Core Features of 3 Patti Gold App
+          </h1>
+          <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
+          Here's a detailed list of handy and important features of this app that will help you to understand the app better and to make up your mind to install the app. These properties and features are innovative and not many apps offer them.
+
+          </p>
+        </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {features.map((feature, index) => (
               <div
@@ -169,6 +181,10 @@ function Informationpage() {
             <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">
               How to Download and Install
             </h2>
+            <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
+            It is an easy-to-follow process that can be done in seconds if you follow the steps correctly. Also don’t worry about the safety of the app as it is fully secure and free of viruses. Users can simply follow the listed steps to download and install the APK file.
+
+          </p>
             <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
               {downloadSteps.map((step, index) => (
                 <li key={index} className="text-black">{step}</li>
@@ -179,6 +195,10 @@ function Informationpage() {
           {/* Deposit Steps */}
           <div className="mg shadow-md rounded-lg p-6 sm:p-8">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">How to Deposit Money</h2>
+            <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
+            In order to enjoy the games on this platform you need to invest some money by adding cash. You can view different bundles of Teen Patti Gold Chips to buy and also get a deposit bonus. Here is how to do that.
+
+          </p>
             <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
               {depositSteps.map((step, index) => (
                 <li key={index} className="text-black">{step}</li>
@@ -189,6 +209,10 @@ function Informationpage() {
           {/* Withdraw Steps */}
           <div className="mg shadow-md rounded-lg p-6 sm:p-8">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">How to Withdraw Money</h2>
+            <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
+            Now that you have made money and are ready to withdraw, let us tell you what to do. You can cash out to Easypaisa or Jazzcash whatever matches your preference. 
+
+          </p>
             <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
               {withdrawSteps.map((step, index) => (
                 <li key={index} className="text-black">{step}</li>
@@ -199,6 +223,9 @@ function Informationpage() {
           
           <div className="mg shadow-md rounded-lg p-6">
             <h2 className="text-xl font-semibold text-black mb-4">How to Create an Account or Bind Email</h2>
+            <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
+            Registering on the app or binding the email is crucial for many reasons. First of all, you will be able to play all the games and access all the app features. Secondly, you will get a welcome bonus which is quite exciting on its own. You can also perform transactions easily which will be safe too. Finally, you can save your gaming progress and view the leaderboard for all the players.
+          </p>
             <ol className="list-decimal pl-6 text-lg space-y-2">
               {accountSteps.map((step, index) => (
                 <li key={index} className="text-black">{step}</li>
@@ -218,10 +245,10 @@ function Informationpage() {
           {/* Install Steps */}
           <div className=" shadow-md rounded-lg p-6 sm:p-8 md:col-span-2">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">
-              How to Download and Install 3 Patti Gold APK on Android?
+            How to Play Games and Earn Money?
             </h2>
             <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6">
-              It is an easy-to-follow process that can be done in seconds if you follow the steps correctly. Also, don’t worry about the safety of the app as it is fully secure and free of viruses. Users can simply follow the listed steps to download and install the APK file.
+            There are different games on the app and you can choose based on your skills and preference. Each game has its own payout rate and while some are low RTP games, there are high RTP games too. I’d you want to make a handsome amount then go for high RTP games such as slots. Here are some games that you can play to earn money.
             </p>
             <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
               {installSteps.map((step, index) => (
