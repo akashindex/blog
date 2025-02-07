@@ -33,7 +33,7 @@ function Overview() {
                             key={index}
                             className="mb-[8px]"
                         >
-                            <p className="text-[20px] max-sm:text-[16px]">
+                            <p className="text-sm sm:text-base lg:text-lg mt-4 text-[#666666]">
                                 {section.text}
                             </p>
                         </li>

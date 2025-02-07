@@ -155,7 +155,7 @@ function Informationpage() {
           <h1 className="text-[50px] leading-[60px] max-sm:text-[30px] max-sm:leading-[30px] text-[#d99101] text-center">
             What is the 3 Patti Gold App
           </h1>
-          <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
+          <p className="text-sm sm:text-base lg:text-lg mt-4 text-[#666666]">
             3 Patti Gold Apk is an online play-to-earn platform. As the apps
             name signals, it has the famous card game called Teen Patti and
             other card game variants like Andar Bahar, Roulette, Baccarat, and
@@ -194,7 +194,7 @@ function Informationpage() {
             <h1 className="text-[50px] leading-[60px] max-sm:text-[30px] max-sm:leading-[30px] text-[#d99101] text-center">
               Core Features of 3 Patti Gold App
             </h1>
-            <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
+            <p className="text-sm sm:text-base lg:text-lg mt-4 text-[#666666]">
               Heres a detailed list of handy and important features of this app
               that will help you understand the app better and make up your mind
               to install it. These properties and features are innovative and
@@ -210,7 +210,7 @@ function Informationpage() {
                 <h3 className="text-lg font-bold text-[#d99101] mb-2">
                   {feature.title}
                 </h3>
-                <p className="text-sm sm:text-base text-black">
+                <p className="text-sm sm:text-base text-[#666666]">
                   {feature.description}
                 </p>
               </div>
@@ -247,10 +247,10 @@ function Informationpage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto p-6">
           {/* Download Steps */}
           <div className="mg shadow-md rounded-lg p-6 sm:p-8">
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-[#666666] mb-4">
               How to Download and Install
             </h2>
-            <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
+            <p className="text-sm sm:text-base lg:text-lg mt-4 text-[#666666]">
               It is an easy-to-follow process that can be done in seconds if you
               follow the steps correctly. Also don’t worry about the safety of
               the app as it is fully secure and free of viruses. Users can
@@ -259,17 +259,17 @@ function Informationpage() {
             </p>
             <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
               {downloadSteps.map((step, index) => (
-                <li key={index} className="text-black">
+                <li key={index} className="text-[#666666]">
                   {step}
                 </li>
               ))}
             </ol>
           </div>
           <div className="mg shadow-md rounded-lg p-6">
-            <h2 className="text-xl font-semibold text-black mb-4">
+            <h2 className="text-xl font-semibold text-[#666666] mb-4">
               How to Create an Account or Bind Email
             </h2>
-            <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
+            <p className="text-sm sm:text-base lg:text-lg mt-4 text-[#666666]">
               Registering on the app or binding the email is crucial for many
               reasons. First of all, you will be able to play all the games and
               access all the app features. Secondly, you will get a welcome
@@ -277,9 +277,9 @@ function Informationpage() {
               transactions easily which will be safe too. Finally, you can save
               your gaming progress and view the leaderboard for all the players.
             </p>
-            <ol className="list-decimal pl-6 text-lg space-y-2">
+            <ol className="list-decimal text-sm sm:text-base lg:text-lg mt-4 text-[#666666]">
               {accountSteps.map((step, index) => (
-                <li key={index} className="text-black">
+                <li key={index} className="text-[#666666]">
                   {step}
                 </li>
               ))}
@@ -298,10 +298,10 @@ function Informationpage() {
               />
             </div>
             <div className="shadow-md rounded-lg p-6">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">
+              <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-[#666666] mb-4">
                 How to Deposit Money
               </h2>
-              <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
+              <p className="text-sm sm:text-base lg:text-lg mt-4 text-[#666666]">
                 In order to enjoy the games on this platform you need to invest
                 some money by adding cash. You can view different bundles of
                 Teen Patti Gold Chips to buy and also get a deposit bonus. Here
@@ -309,7 +309,7 @@ function Informationpage() {
               </p>
               <ol className="list-decimal text-sm sm:text-base lg:text-lg ">
                 {depositSteps.map((step, index) => (
-                  <li key={index} className="text-black">
+                  <li key={index} className="text-[#666666]">
                     {step}
                   </li>
                 ))}
@@ -329,17 +329,17 @@ function Informationpage() {
               />
             </div>
             <div className="shadow-md rounded-lg p-6">
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-[#666666] mb-4">
               How to Withdraw Money
             </h2>
-            <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
+            <p className="text-sm sm:text-base lg:text-lg mt-4 text-[#666666]">
               Now that you have made money and are ready to withdraw, let us
               tell you what to do. You can cash out to Easypaisa or Jazzcash
               whatever matches your preference.
             </p>
             <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
               {withdrawSteps.map((step, index) => (
-                <li key={index} className="text-black">
+                <li key={index} className="text-[#666666]">
                   {step}
                 </li>
               ))}
@@ -350,10 +350,10 @@ function Informationpage() {
           </div>
           {/* earn Steps */}
           <div className=" shadow-md rounded-lg p-6 sm:p-8">
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-[#666666] mb-4">
               How to Play Games and Earn Money?
             </h2>
-            <p className="text-sm sm:text-base lg:text-lg text-[black] mb-6">
+            <p className="text-sm sm:text-base lg:text-lg text-[#666666] mb-6">
               There are different games on the app and you can choose based on
               your skills and preference. Each game has its own payout rate and
               while some are low RTP games, there are high RTP games too. I’d
@@ -362,7 +362,7 @@ function Informationpage() {
             </p>
             <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
               {installSteps.map((step, index) => (
-                <li key={index} className="text-black">
+                <li key={index} className="text-[#666666]">
                   {step}
                 </li>
               ))}
@@ -372,12 +372,12 @@ function Informationpage() {
 
           {/* IP Issue Resolution Steps */}
           <div className="mg shadow-md rounded-lg p-6">
-            <h2 className="text-xl font-semibold text-black mb-4">
+            <h2 className="text-xl font-semibold text-[#666666] mb-4">
               How to Solve IP Limit Exceeds Issue
             </h2>
-            <ol className="list-decimal pl-6 text-lg space-y-2">
+            <ol className="list-decimal text-sm sm:text-base lg:text-lg mt-4 text-[#666666]">
               {ipIssueSteps.map((step, index) => (
-                <li key={index} className="text-black">
+                <li key={index} className="text-[#666666]">
                   {step}
                 </li>
               ))}

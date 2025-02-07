@@ -24,13 +24,13 @@ If you’ve reached this far, then you must be interested in trying out the serv
 
   return (
     <div className="bg-white text-black py-10 px-5">
-      <div className="max-w-4xl mx-auto">
+      <div className="w-[90%] mx-auto">
         <h2 className="text-3xl font-bold text-center mb-8">Pros and Cons</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Pros Section */}
           <div className="mg p-6 rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-green-600 mb-4">Pros</h3>
-            <ul className="list-disc list-inside space-y-2">
+            <ul className="list-disc text-sm sm:text-base lg:text-lg mt-4 text-[#666666]">
               {pros.map((pro, index) => (
                 <li key={index} className="text-lg">
                   {pro}
@@ -42,7 +42,7 @@ If you’ve reached this far, then you must be interested in trying out the serv
           {/* Cons Section */}
           <div className="mg p-6 rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-red-600 mb-4">Cons</h3>
-            <ul className="list-disc list-inside space-y-2">
+            <ul className="list-disc text-sm sm:text-base lg:text-lg mt-4 text-[#666666]">
               {cons.map((con, index) => (
                 <li key={index} className="text-lg">
                   {con}
@@ -52,8 +52,8 @@ If you’ve reached this far, then you must be interested in trying out the serv
           </div>
         </div>
         <div className="mg  rounded-lg shadow-md p-[10px]">
-        <h3 className="text-2xl font-semibold text-[#d99101] mb-4">conclusion</h3>
-          <p className="text-lg leading-relaxed text-justify">{conclusionText}</p>
+        <h3 className="text-[36px] text-center max-sm:text-[26px] font-semibold text-[#666666] mb-4">conclusion</h3>
+          <p className="text-sm sm:text-base lg:text-lg mt-4 text-[#666666]">{conclusionText}</p>
         </div>
       </div>
     </div>
