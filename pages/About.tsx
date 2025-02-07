@@ -45,7 +45,7 @@ const About = () => {
         {/* Why Choose Us Section */}
         <div className="mb-12">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">
-            Why Choose Us?
+            Why Choose Us?12
           </h1>
           <ul className="list-none space-y-3 mt-4">
             {highlights.map((point, index) => (
