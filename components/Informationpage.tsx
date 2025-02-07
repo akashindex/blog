@@ -1,8 +1,8 @@
-import React from 'react';
-import DownloadButton from "./Button"
-import { section } from 'framer-motion/client';
-import ProAndCons from './proandcons';
-
+import React from "react";
+import DownloadButton from "./Button";
+import { section } from "framer-motion/client";
+import ProAndCons from "./proandcons";
+import Image from "next/image";
 
 // Data for Features
 const features = [
@@ -61,14 +61,36 @@ const features = [
     description:
       "In case of any problem, you can always rely on the customer service team. The team is available 24/7 and ready to help you. You can contact them via live chat or through email. You can also leave a message on official social media sites.",
   },
-]
+];
 
 // Data for Games
 const games = [
-  "Teen Patti", "Andar Bahar", "Roulette", "Blackjack", "Poker", "Domino",
-  "Ludo", "Slots", "Bingo", "Fruit Line", "Zoo Roulette", "Mines",
-  "Dragon and Tiger", "Crash", "Best of Five","Teen Patti 20-20","Rummy","10 Cards","Variation","777 Bingo","Rattling Gems",
-  "Dynamite World","Sweet Bonanza","Double","7 Up Down","God of Fortune",
+  "Teen Patti",
+  "Andar Bahar",
+  "Roulette",
+  "Blackjack",
+  "Poker",
+  "Domino",
+  "Ludo",
+  "Slots",
+  "Bingo",
+  "Fruit Line",
+  "Zoo Roulette",
+  "Mines",
+  "Dragon and Tiger",
+  "Crash",
+  "Best of Five",
+  "Teen Patti 20-20",
+  "Rummy",
+  "10 Cards",
+  "Variation",
+  "777 Bingo",
+  "Rattling Gems",
+  "Dynamite World",
+  "Sweet Bonanza",
+  "Double",
+  "7 Up Down",
+  "God of Fortune",
 ];
 
 // Data for Steps
@@ -109,77 +131,107 @@ const accountSteps = [
   "	On the top left corner, there is an ID where you need to click.",
   "Select the 'Bind' option.",
   "	You will find a bind option, click on it..",
-  "	Fill out the form: Write your Email>Get OTP>Write Captcha> Create and Confirm your Password."
+  "	Fill out the form: Write your Email>Get OTP>Write Captcha> Create and Confirm your Password.",
 ];
 const ipIssueSteps = [
   "Due to unknown reasons, sometimes even a new player can face IP limitations. To solve this problem, download a well-known VPN and use the app after connecting to the VPN. Switching your IP address can be helpful to overcome IP limitation issues.",
 ];
 
-
 function Informationpage() {
   return (
     <section>
-      <div className=" font-rethink mg   max-sm:p-8 space-y-8 px-[110px] mx-auto pt-[30px] ">
+      <div className=" font-rethink mg   max-sm:p-4 space-y-8 px-[56px] mx-auto pt-[30px] ">
         {/* Introduction */}
         <div className=" shadow-md rounded-lg p-6  font-rethink w-[94%] mx-auto">
+        <div>
+              <Image
+                src="/images/01.jpg"
+                alt="Company Logo"
+                width={200}
+                height={200}
+                className="w-full h-full object-cover mb-4"
+              />
+            </div>
           <h1 className="text-[50px] leading-[60px] max-sm:text-[30px] max-sm:leading-[30px] text-[#d99101] text-center">
-          What is the 3 Patti Gold App
+            What is the 3 Patti Gold App
           </h1>
           <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
-            3 Patti Gold Apk is an online play-to-earn platform. As the app’s
+            3 Patti Gold Apk is an online play-to-earn platform. As the apps
             name signals, it has the famous card game called Teen Patti and
             other card game variants like Andar Bahar, Roulette, Baccarat, and
             dice games. There are over 20 different games which are enough to
             keep you entertained while they introduce new games in the updates.
-            Card games have been loved by South Asians for centuries, and
-            people in India and Pakistan still play Teen Patti, which is like
-            Indian Poker with slightly different rules. In the past, people
-            used to go to physical casinos to enjoy all these games, but with
-            time they were replaced by online casino platforms which are a lot
-            more convenient than physical casinos. If you are also interested
-            in playing casino games online, 3 Patti Gold Game is a great
-            option. Apart from different games, this app also offers income
-            prospects. Players can earn money through games, winning prizes,
-            bonuses, and rewards. The money earned can be then cashed out to
-            your e-wallets such as Easypaisa and Jazzcash. The availability of
-            these Pakistani e-wallets is another reason why this app is widely
-            used. You can find high-paying games, play and enjoy, and win lots
-            of money. You can also earn through a referral program which will
-            be explained in detail here.
+            Card games have been loved by South Asians for centuries, and people
+            in India and Pakistan still play Teen Patti, which is like Indian
+            Poker with slightly different rules. In the past, people used to go
+            to physical casinos to enjoy all these games, but with time they
+            were replaced by online casino platforms which are a lot more
+            convenient than physical casinos. If you are also interested in
+            playing casino games online, 3 Patti Gold Game is a great option.
+            Apart from different games, this app also offers income prospects.
+            Players can earn money through games, winning prizes, bonuses, and
+            rewards. The money earned can be then cashed out to your e-wallets
+            such as Easypaisa and Jazzcash. The availability of these Pakistani
+            e-wallets is another reason why this app is widely used. You can
+            find high-paying games, play and enjoy, and win lots of money. You
+            can also earn through a referral program which will be explained in
+            detail here.
           </p>
         </div>
 
         {/* Core Features */}
         <div className=" p-6 sm:p-8 rounded-lg mg">
-        <div className=" rounded-lg p-6  font-rethink w-[94%] mx-auto">
-          <h1 className="text-[50px] leading-[60px] max-sm:text-[30px] max-sm:leading-[30px] text-[#d99101] text-center">
-          Core Features of 3 Patti Gold App
-          </h1>
-          <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
-              Here's a detailed list of handy and important features of this
-              app that will help you understand the app better and make up your
-              mind to install it. These properties and features are innovative
-              and not many apps offer them.
+          <div className=" rounded-lg p-6  font-rethink w-[94%] mx-auto">
+          <div>
+              <Image
+                src="/images/refer.jpg"
+                alt="Company Logo"
+                width={200}
+                height={200}
+                className="w-full h-full object-cover mb-4"
+              />
+            </div>
+            <h1 className="text-[50px] leading-[60px] max-sm:text-[30px] max-sm:leading-[30px] text-[#d99101] text-center">
+              Core Features of 3 Patti Gold App
+            </h1>
+            <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
+              Heres a detailed list of handy and important features of this app
+              that will help you understand the app better and make up your mind
+              to install it. These properties and features are innovative and
+              not many apps offer them.
             </p>
-        </div>
+          </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {features.map((feature, index) => (
               <div
                 key={index}
                 className=" p-4 rounded-lg border-[2px] shadow-md"
               >
-                <h3 className="text-lg font-bold text-[#d99101] mb-2">{feature.title}</h3>
-                <p className="text-sm sm:text-base text-black">{feature.description}</p>
+                <h3 className="text-lg font-bold text-[#d99101] mb-2">
+                  {feature.title}
+                </h3>
+                <p className="text-sm sm:text-base text-black">
+                  {feature.description}
+                </p>
               </div>
             ))}
           </div>
         </div>
 
         {/* Games Section */}
-        <div className=" rounded-lg p-6  mg shadow-lg max-sm:mb-[10px]">
+        <div className=" rounded-lg p-6 shadow-lg max-sm:mb-[10px] mg">
           <h2 className=" text-[50px] leading-[60px] text-[#d99101] max-sm:text-[30px] mb-[20px] text-center">
             Games Available
           </h2>
+          <div>
+              <Image
+                src="/images/AllGames.jpg"
+                alt="Company Logo"
+                width={200}
+                height={200}
+                className="w-full h-full object-cover mb-4"
+              />
+            </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             {games.map((game, index) => (
               <div
@@ -199,85 +251,142 @@ function Informationpage() {
               How to Download and Install
             </h2>
             <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
-            It is an easy-to-follow process that can be done in seconds if you follow the steps correctly. Also don’t worry about the safety of the app as it is fully secure and free of viruses. Users can simply follow the listed steps to download and install the APK file.
-
-          </p>
+              It is an easy-to-follow process that can be done in seconds if you
+              follow the steps correctly. Also don’t worry about the safety of
+              the app as it is fully secure and free of viruses. Users can
+              simply follow the listed steps to download and install the APK
+              file.
+            </p>
             <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
               {downloadSteps.map((step, index) => (
-                <li key={index} className="text-black">{step}</li>
+                <li key={index} className="text-black">
+                  {step}
+                </li>
               ))}
             </ol>
           </div>
-
-          {/* Deposit Steps */}
-          <div className="mg shadow-md rounded-lg p-6 sm:p-8">
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">How to Deposit Money</h2>
+          <div className="mg shadow-md rounded-lg p-6">
+            <h2 className="text-xl font-semibold text-black mb-4">
+              How to Create an Account or Bind Email
+            </h2>
             <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
-            In order to enjoy the games on this platform you need to invest some money by adding cash. You can view different bundles of Teen Patti Gold Chips to buy and also get a deposit bonus. Here is how to do that.
-
-          </p>
-            <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
-              {depositSteps.map((step, index) => (
-                <li key={index} className="text-black">{step}</li>
+              Registering on the app or binding the email is crucial for many
+              reasons. First of all, you will be able to play all the games and
+              access all the app features. Secondly, you will get a welcome
+              bonus which is quite exciting on its own. You can also perform
+              transactions easily which will be safe too. Finally, you can save
+              your gaming progress and view the leaderboard for all the players.
+            </p>
+            <ol className="list-decimal pl-6 text-lg space-y-2">
+              {accountSteps.map((step, index) => (
+                <li key={index} className="text-black">
+                  {step}
+                </li>
               ))}
             </ol>
+          </div>
+          {/* Deposit Steps */}
+
+          <div className="mg">
+            <div>
+              <Image
+                src="/images/deposit.jpg"
+                alt="Company Logo"
+                width={300}
+                height={300}
+                className="w-full h-full object-cover mb-4"
+              />
+            </div>
+            <div className="shadow-md rounded-lg p-6">
+              <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">
+                How to Deposit Money
+              </h2>
+              <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
+                In order to enjoy the games on this platform you need to invest
+                some money by adding cash. You can view different bundles of
+                Teen Patti Gold Chips to buy and also get a deposit bonus. Here
+                is how to do that.
+              </p>
+              <ol className="list-decimal text-sm sm:text-base lg:text-lg ">
+                {depositSteps.map((step, index) => (
+                  <li key={index} className="text-black">
+                    {step}
+                  </li>
+                ))}
+              </ol>
+            </div>
           </div>
 
           {/* Withdraw Steps */}
-          <div className="mg shadow-md rounded-lg p-6 sm:p-8">
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">How to Withdraw Money</h2>
+          <div className="mg">
+          <div>
+              <Image
+                src="/images/withdrawl.jpg"
+                alt="Company Logo"
+                width={300}
+                height={300}
+                className="w-full h-full object-cover mb-4"
+              />
+            </div>
+            <div className="shadow-md rounded-lg p-6">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">
+              How to Withdraw Money
+            </h2>
             <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
-            Now that you have made money and are ready to withdraw, let us tell you what to do. You can cash out to Easypaisa or Jazzcash whatever matches your preference. 
-
-          </p>
+              Now that you have made money and are ready to withdraw, let us
+              tell you what to do. You can cash out to Easypaisa or Jazzcash
+              whatever matches your preference.
+            </p>
             <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
               {withdrawSteps.map((step, index) => (
-                <li key={index} className="text-black">{step}</li>
+                <li key={index} className="text-black">
+                  {step}
+                </li>
               ))}
             </ol>
-          </div>
-
+            </div>
           
-          <div className="mg shadow-md rounded-lg p-6">
-            <h2 className="text-xl font-semibold text-black mb-4">How to Create an Account or Bind Email</h2>
-            <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
-            Registering on the app or binding the email is crucial for many reasons. First of all, you will be able to play all the games and access all the app features. Secondly, you will get a welcome bonus which is quite exciting on its own. You can also perform transactions easily which will be safe too. Finally, you can save your gaming progress and view the leaderboard for all the players.
-          </p>
-            <ol className="list-decimal pl-6 text-lg space-y-2">
-              {accountSteps.map((step, index) => (
-                <li key={index} className="text-black">{step}</li>
-              ))}
-            </ol>
+          
           </div>
-
-          {/* IP Issue Resolution Steps */}
-          <div className="mg shadow-md rounded-lg p-6">
-            <h2 className="text-xl font-semibold text-black mb-4">How to Solve IP Limit Exceeds Issue</h2>
-            <ol className="list-decimal pl-6 text-lg space-y-2">
-              {ipIssueSteps.map((step, index) => (
-                <li key={index} className="text-black">{step}</li>
-              ))}
-            </ol>
-          </div>
-          {/* Install Steps */}
-          <div className=" shadow-md rounded-lg p-6 sm:p-8 md:col-span-2">
+          {/* earn Steps */}
+          <div className=" shadow-md rounded-lg p-6 sm:p-8">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-black mb-4">
-            How to Play Games and Earn Money?
+              How to Play Games and Earn Money?
             </h2>
-            <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6">
-            There are different games on the app and you can choose based on your skills and preference. Each game has its own payout rate and while some are low RTP games, there are high RTP games too. I’d you want to make a handsome amount then go for high RTP games such as slots. Here are some games that you can play to earn money.
+            <p className="text-sm sm:text-base lg:text-lg text-[black] mb-6">
+              There are different games on the app and you can choose based on
+              your skills and preference. Each game has its own payout rate and
+              while some are low RTP games, there are high RTP games too. I’d
+              you want to make a handsome amount then go for high RTP games such
+              as slots. Here are some games that you can play to earn money.
             </p>
             <ol className="list-decimal pl-4 sm:pl-6 text-sm sm:text-base lg:text-lg space-y-2">
               {installSteps.map((step, index) => (
-                <li key={index} className="text-black">{step}</li>
+                <li key={index} className="text-black">
+                  {step}
+                </li>
               ))}
             </ol>
           </div>
-          
+         
+
+          {/* IP Issue Resolution Steps */}
+          <div className="mg shadow-md rounded-lg p-6">
+            <h2 className="text-xl font-semibold text-black mb-4">
+              How to Solve IP Limit Exceeds Issue
+            </h2>
+            <ol className="list-decimal pl-6 text-lg space-y-2">
+              {ipIssueSteps.map((step, index) => (
+                <li key={index} className="text-black">
+                  {step}
+                </li>
+              ))}
+            </ol>
+          </div>
         </div>
       </div>
       <ProAndCons />
-      <div className='flex items-center justify-center bg w-[100%]'>
+      <div className="flex items-center justify-center bg w-[100%]">
         <DownloadButton />
       </div>
     </section>
