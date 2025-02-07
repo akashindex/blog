@@ -6,7 +6,6 @@ import ProAndCons from './proandcons';
 
 // Data for Features
 const features = [
-  
   {
     title: "Diverse Collection of Games",
     description:
@@ -25,7 +24,7 @@ const features = [
   {
     title: "Referral Reward",
     description:
-      "There are three levels of this program, namely, level 1, level 2, and level 3. The higher the level the higher will be the reward. So, make sure you invite as many new users as you can to earn your higher commissions. You can share the app in messages or share the referral code with others to join.",
+      "There are three levels of this program, namely, level 1, level 2, and level 3. The higher the level, the higher the reward. So, make sure you invite as many new users as you can to earn higher commissions. You can share the app in messages or share the referral code with others to join.",
   },
   {
     title: "Free Wheel Spin",
@@ -35,17 +34,17 @@ const features = [
   {
     title: "Engaging Gameplay",
     description:
-      "The games in the app are really engaging especially card games that are played with other players in multiplayer mode. These games will take you to the real Las Vegas environment and therefore are immersive. The performance is fast and the visuals are vibrant.",
+      "The games in the app are really engaging, especially card games that are played with other players in multiplayer mode. These games will take you to the real Las Vegas environment and therefore are immersive. The performance is fast and the visuals are vibrant.",
   },
   {
     title: "Simple Interface",
     description:
-      "The app is easy to use due to its simple and intuitive interface. The home page offers game categories and on the left, you will find account and settings. Similarly, on the main page, there is an option to add and withdraw money.",
+      "The app is easy to use due to its simple and intuitive interface. The home page offers game categories, and on the left, you will find account and settings. Similarly, on the main page, there is an option to add and withdraw money.",
   },
   {
     title: "Tournaments",
     description:
-      "If you want to elevate your experience, make sure you join the daily and weekly events and tournaments. You will be playing with and against live players. Upon winning you will be getting huge cash prizes. You can view your and others' performance on the leaderboard.",
+      "If you want to elevate your experience, make sure you join the daily and weekly events and tournaments. You will be playing with and against live players. Upon winning, you will be getting huge cash prizes. You can view your and others' performance on the leaderboard.",
   },
   {
     title: "Trusted Payment Channels",
@@ -55,14 +54,14 @@ const features = [
   {
     title: "Community",
     description:
-      "Enjoy the vibrant community and socialize with the players. You can discuss the strategies and tips to play different games and learn a lot from others. You can also join different social media groups such as Facebook. There you can also post your queries and get answers.",
+      "Enjoy the vibrant community and socialize with the players. You can discuss strategies and tips to play different games and learn a lot from others. You can also join different social media groups such as Facebook. There you can also post your queries and get answers.",
   },
   {
     title: "Customer Support",
     description:
-      "In case of any problem you can always rely on the customer service team. The team is available 24/7 and ready to help you. You can contact me via live chat or through email. You can also leave a message on official social media sites.",
+      "In case of any problem, you can always rely on the customer service team. The team is available 24/7 and ready to help you. You can contact them via live chat or through email. You can also leave a message on official social media sites.",
   },
-];
+]
 
 // Data for Games
 const games = [
@@ -127,10 +126,26 @@ function Informationpage() {
           What is the 3 Patti Gold App
           </h1>
           <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
-            3 Patti Gold Apk is an online play-to-earn platform. As the app’s name signals, it has the famous card game called Teen Patti and other card game variants like Andar Bahar, Roulette, Baccarat, and dice games. There are over 20 different games which are enough to keep you entertained while they introduce new games in the updates.
-            Card games have been loved by South Asians for centuries and people in India and Pakistan still play Teen Patti which is like Indian Poker with slightly different rules. In the past people used to go to physical casinos to enjoy all these games but with time they were replaced by online casino platforms which are a lot more convenient than physical casinos. If you are also interested in playing casino games online, 3 Patti Gold Game is a great option.
-            Apart from different games, this app also offers income prospects. Players can earn money through games, winning prizes, bonuses, and rewards. The money earned can be then cashed out to your e-wallets such as Easypaisa and Jazzcash.The availability of these Pakistani e-wallets is another reason why this app is widely used. You can find high-paying games, play and enjoy, and win lots of money. You can also earn through a referral program which will be explained in detail here.
-
+            3 Patti Gold Apk is an online play-to-earn platform. As the app’s
+            name signals, it has the famous card game called Teen Patti and
+            other card game variants like Andar Bahar, Roulette, Baccarat, and
+            dice games. There are over 20 different games which are enough to
+            keep you entertained while they introduce new games in the updates.
+            Card games have been loved by South Asians for centuries, and
+            people in India and Pakistan still play Teen Patti, which is like
+            Indian Poker with slightly different rules. In the past, people
+            used to go to physical casinos to enjoy all these games, but with
+            time they were replaced by online casino platforms which are a lot
+            more convenient than physical casinos. If you are also interested
+            in playing casino games online, 3 Patti Gold Game is a great
+            option. Apart from different games, this app also offers income
+            prospects. Players can earn money through games, winning prizes,
+            bonuses, and rewards. The money earned can be then cashed out to
+            your e-wallets such as Easypaisa and Jazzcash. The availability of
+            these Pakistani e-wallets is another reason why this app is widely
+            used. You can find high-paying games, play and enjoy, and win lots
+            of money. You can also earn through a referral program which will
+            be explained in detail here.
           </p>
         </div>
 
@@ -141,9 +156,11 @@ function Informationpage() {
           Core Features of 3 Patti Gold App
           </h1>
           <p className="text-sm sm:text-base lg:text-lg mt-4 text-black">
-          Here's a detailed list of handy and important features of this app that will help you to understand the app better and to make up your mind to install the app. These properties and features are innovative and not many apps offer them.
-
-          </p>
+              Here's a detailed list of handy and important features of this
+              app that will help you understand the app better and make up your
+              mind to install it. These properties and features are innovative
+              and not many apps offer them.
+            </p>
         </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {features.map((feature, index) => (
