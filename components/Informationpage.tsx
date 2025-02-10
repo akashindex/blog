@@ -147,8 +147,8 @@ function Informationpage() {
               <Image
                 src="/images/01.jpg"
                 alt="Company Logo"
-                width={200}
-                height={200}
+                width={1200}
+                height={1200}
                 className="w-full h-full object-cover mb-4"
               />
             </div>
@@ -187,8 +187,8 @@ function Informationpage() {
               <Image
                 src="/images/refer.jpg"
                 alt="Company Logo"
-                width={200}
-                height={200}
+                width={1200}
+                height={1200}
                 className="w-full h-full object-cover mb-4"
               />
             </div>
@@ -230,8 +230,8 @@ function Informationpage() {
               <Image
                 src="/images/AllGames.jpg"
                 alt="Company Logo"
-                width={200}
-                height={200}
+                width={1200}
+                height={1200}
                 className="w-full h-full object-cover mb-4"
               />
             </div>
@@ -247,7 +247,7 @@ function Informationpage() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mx-auto">
           {/* Download Steps */}
           <div className="mg shadow-md rounded-lg p-6 sm:p-8">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-[#666666] mb-4">
@@ -295,8 +295,8 @@ function Informationpage() {
               <Image
                 src="/images/deposit.jpg"
                 alt="Company Logo"
-                width={300}
-                height={300}
+                width={1300}
+                height={1300}
                 className="w-full h-full object-cover mb-4"
               />
             </div>
@@ -326,8 +326,8 @@ function Informationpage() {
               <Image
                 src="/images/withdrawl.jpg"
                 alt="Company Logo"
-                width={300}
-                height={300}
+                width={1300}
+                height={1300}
                 className="w-full h-full object-cover mb-4"
               />
             </div>
