@@ -140,9 +140,9 @@ const ipIssueSteps = [
 function Informationpage() {
   return (
     <section>
-      <div className=" font-rethink mg   max-sm:p-4 space-y-8 px-[56px] mx-auto pt-[30px] ">
+      <div className=" font-rethink mg   max-sm:p-2 space-y-8 md:px-[56px] mx-auto pt-[30px] ">
         {/* Introduction */}
-        <div className=" shadow-md rounded-lg p-6  font-rethink w-[94%] mx-auto">
+       
         <div>
               <Image
                 src="/images/01.jpg"
@@ -152,6 +152,7 @@ function Informationpage() {
                 className="w-full h-full object-cover mb-4"
               />
             </div>
+            <div className=" shadow-md rounded-lg p-6  font-rethink w-[94%] mx-auto">
           <h1 className="text-[50px] leading-[60px] max-sm:text-[30px] max-sm:leading-[30px] text-[#d99101] text-center">
             What is the 3 Patti Gold App
           </h1>
@@ -180,8 +181,8 @@ function Informationpage() {
         </div>
 
         {/* Core Features */}
-        <div className=" p-6 sm:p-8 rounded-lg mg">
-          <div className=" rounded-lg p-6  font-rethink w-[94%] mx-auto">
+        <div className="rounded-lg mg">
+          
           <div>
               <Image
                 src="/images/refer.jpg"
@@ -191,9 +192,11 @@ function Informationpage() {
                 className="w-full h-full object-cover mb-4"
               />
             </div>
+            <div className=" rounded-lg p-6  font-rethink w-[94%] mx-auto">
             <h1 className="text-[50px] leading-[60px] max-sm:text-[30px] max-sm:leading-[30px] text-[#d99101] text-center">
               Core Features of 3 Patti Gold App
             </h1>
+            
             <p className="text-sm sm:text-base lg:text-lg mt-4 text-[#666666]">
               Heres a detailed list of handy and important features of this app
               that will help you understand the app better and make up your mind
@@ -219,7 +222,7 @@ function Informationpage() {
         </div>
 
         {/* Games Section */}
-        <div className=" rounded-lg p-6 shadow-lg max-sm:mb-[10px] mg">
+        <div className=" rounded-lg shadow-lg max-sm:mb-[10px] mg">
           <h2 className=" text-[50px] leading-[60px] text-[#d99101] max-sm:text-[30px] mb-[20px] text-center">
             Games Available
           </h2>
@@ -232,7 +235,7 @@ function Informationpage() {
                 className="w-full h-full object-cover mb-4"
               />
             </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 p-6">
             {games.map((game, index) => (
               <div
                 key={index}
@@ -244,7 +247,7 @@ function Informationpage() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto p-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto">
           {/* Download Steps */}
           <div className="mg shadow-md rounded-lg p-6 sm:p-8">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-[#666666] mb-4">
