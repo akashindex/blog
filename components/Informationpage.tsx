@@ -149,7 +149,7 @@ function Informationpage() {
                 alt="Company Logo"
                 width={1200}
                 height={1200}
-                className="w-full h-full object-cover mb-4"
+                className="w-full md:max-w-7xl h-full mx-auto object-cover mb-4"
               />
             </div>
             <div className=" shadow-md rounded-lg p-6  font-rethink w-[94%] mx-auto">
@@ -189,7 +189,7 @@ function Informationpage() {
                 alt="Company Logo"
                 width={1200}
                 height={1200}
-                className="w-full h-full object-cover mb-4"
+                className="w-full md:max-w-7xl h-full mx-auto object-cover mb-4"
               />
             </div>
             <div className=" rounded-lg p-6  font-rethink w-[94%] mx-auto">
@@ -232,7 +232,7 @@ function Informationpage() {
                 alt="Company Logo"
                 width={1200}
                 height={1200}
-                className="w-full h-full object-cover mb-4"
+                className="w-full md:max-w-7xl h-full mx-auto object-cover mb-4"
               />
             </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 p-6">
@@ -297,7 +297,7 @@ function Informationpage() {
                 alt="Company Logo"
                 width={1300}
                 height={1300}
-                className="w-full h-full object-cover mb-4"
+                className="w-full md:max-w-7xl h-full mx-auto object-cover mb-4"
               />
             </div>
             <div className="shadow-md rounded-lg p-6">
@@ -328,7 +328,7 @@ function Informationpage() {
                 alt="Company Logo"
                 width={1300}
                 height={1300}
-                className="w-full h-full object-cover mb-4"
+                className="w-full md:max-w-7xl h-full mx-auto object-cover mb-4"
               />
             </div>
             <div className="shadow-md rounded-lg p-6">
