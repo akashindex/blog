@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <section className=" bg max-sm:px-[30px] mx-auto py-[50px]">
-      <div className="flex flex-col-reverse sm:flex-row items-center  max-sm:mt-[104px] w-[80%] mx-auto ">
+      <div className="flex flex-col-reverse sm:flex-row items-center  max-sm:mt-[104px] w-[80%] h-[100vh] mx-auto ">
         {/* Text Section */}
         <div className="flex flex-col justify-center max-sm:text-center">
           <div className="text-[#d99101] font-bold text-[24px] sm:text-[30px] lg:text-[40px] uppercase mt-[15px]">
